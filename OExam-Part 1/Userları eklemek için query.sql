@@ -19,7 +19,7 @@ values("20009CS","CemileOExam-S","$2y$10$KKjdhRmc8WHt2ZxF4rrlj.dYnHUORWMQgIDjsIn
 insert into users (id,user_name,password,full_name,email,locality,department,role)
 values("20010CS","ElvanOExam-S","$2y$10$39bohRT3UrErYCDyn54DGulOJprHNsM3MkwGCAJIi0rhy/WDeK3o.","Elvan Altınsoy","elvan@gmail.com","Başakşehir","CS","Student");
 insert into users (id,user_name,password,full_name,email,locality,department,role)
-values("20011SE","GülfidanOExam-S","$2y$10$MCitMO4ZIw7SIim9jJZrlO/LnRVrd/7xxaW.Zi1DQG7jm7xhqxru6","Gülfidan Boz","gülfidan@gmail.com","Bayrampaşa","SE","Student");
+values("20011SE","GülfidanOExam-S","$2y$10$MCitMO4ZIw7SIim9jJZrlO/LnRVrd/7xxaW.Zi1DQG7jm7xhqxru6","Gülfidan Boz","gulfidan@gmail.com","Bayrampaşa","SE","Student");
 insert into users (id,user_name,password,full_name,email,locality,department,role)
 values("20012SE","AtahanOExam-S","$2y$10$MlRD5akPTJ95clx5/43rZeEJlIi/8bXF6yZcnY8dx75/mSQ0eETnK","Atahan Evmez","atahan@gmail.com","Beşiktaş","SE","Student");
 insert into users (id,user_name,password,full_name,email,locality,department,role)
@@ -39,7 +39,7 @@ values("20019SE","DoğanOExam-S","$2y$10$TrQZzl7o3TO9yYahKbyro.EV4.Ms4rv6qg5aZlA
 insert into users (id,user_name,password,full_name,email,locality,department,role)
 values("20020SE","SezinOExam-S","$2y$10$LJldhANm3JAwut2rmMfieOX8j1UM7ca5IG8/K5pqGf2nBeA5DFcgG","Sezin Bekmez","sezin@gmail.com","Esenyurt","SE","Student");
 insert into users (id,user_name,password,full_name,email,locality,department,role)
-values("20021IE","EyüpOExam-S","$2y$10$fSUv9ZG9opIXBDoz5t4NdOzW/UOiO0dQb9b7RMTvREOCVbN1Znl9S","Eyüp Adışen","eyüp@gmail.com","Eyüpsultan","IE","Student");
+values("20021IE","EyüpOExam-S","$2y$10$fSUv9ZG9opIXBDoz5t4NdOzW/UOiO0dQb9b7RMTvREOCVbN1Znl9S","Eyüp Adışen","eyup@gmail.com","Sultangazi","IE","Student");
 insert into users (id,user_name,password,full_name,email,locality,department,role)
 values("20022IE","Buket1OExam-S","$2y$10$HX6x2EVzntqYLowTTJm.nOM3fMcvp6dwOfz9jongPu8.xXeyyp3GG","Buket Aydoğmuş","buket1@gmail.com","Fatih","IE","Student");
 insert into users (id,user_name,password,full_name,email,locality,department,role)
@@ -69,7 +69,7 @@ values("20034EE","MustafaOExam-S","$2y$10$X5FVARrfXtikVkUQSjpCLeIOAexK/dKlgTbEYF
 insert into users (id,user_name,password,full_name,email,locality,department,role)
 values("20035EE","AsımOExam-S","$2y$10$myJ4rLl0Kr6sYTWrH41nYOnbxdA481fXgg.EqIIAQ/jqSOOwxBSsu","Asım Sarıaslan","asım@gmail.com","Sultangazi","EE","Student");
 insert into users (id,user_name,password,full_name,email,locality,department,role)
-values("20036EE","ÖnderOExam-S","$2y$10$.BGu6gf8PmkJls4DC9H0vuNgnxxjzZ/D5jQ8WwgNE30iJvZiyxR4y","Önder Aydıner","önder@gmail.com","Şile","EE","Student");
+values("20036EE","ÖnderOExam-S","$2y$10$.BGu6gf8PmkJls4DC9H0vuNgnxxjzZ/D5jQ8WwgNE30iJvZiyxR4y","Önder Aydıner","onder@gmail.com","Şile","EE","Student");
 insert into users (id,user_name,password,full_name,email,locality,department,role)
 values("20037EE","GoncagülOExam-S","$2y$10$uSfhL8w0RXfDHjnStJMtLeoFKjkha5QXMhCuJCyxT7upftVdL0EiK","Goncagül OFlaz","goncagul@gmail.com","Şişli","EE","Student");
 insert into users (id,user_name,password,full_name,email,locality,department,role)
@@ -77,7 +77,7 @@ values("20038EE","BayramOExam-S","$2y$10$6gkUGhOmmmV1mr0ptWe.Pus168jD6h5kyxr64gi
 insert into users (id,user_name,password,full_name,email,locality,department,role)
 values("20039EE","SudeOExam-S","$2y$10$JDvBj7ykRMiM0uYQussSIO5pFHxPrzbzFslZFUZaJ/eiAZfP0.yaS","Sude Biçici","sude@gmail.com","Ümraniye","EE","Student");
 insert into users (id,user_name,password,full_name,email,locality,department,role)
-values("20040EE","SüheylOExam-S","$2y$10$wxQ5rsyhbt7bNqzqrt3BY.19EeqbJNR.pzAakRS.kCzYeXqBmMtRi","Süheyl Gören","süheyl@gmail.com","Üsküdar","EE","Student");
+values("20040EE","SüheylOExam-S","$2y$10$wxQ5rsyhbt7bNqzqrt3BY.19EeqbJNR.pzAakRS.kCzYeXqBmMtRi","Süheyl Gören","suheyl@gmail.com","Üsküdar","EE","Student");
 insert into users (id,user_name,password,full_name,email,locality,department,role)
 values("20041ME","BehzatOExam-S","$2y$10$kvFiwDhvyXToIfzNo.vhQOLW4O/dZ3xu4tkbeNcEBZBSca1rdiBam","Behzat Çalışkan","behzat@gmail.com","Zeytinburnu","ME","Student");
 insert into users (id,user_name,password,full_name,email,locality,department,role)
@@ -171,7 +171,7 @@ values("20085CE","HasanOExam-S","$2y$10$OK01ucjZOEbWYa/hRL62j.bMujRVSfwHtfRKwdCG
 insert into users (id,user_name,password,full_name,email,locality,department,role)
 values("20086CE","YavuzOExam-S","$2y$10$vk7gzFtlgTgif.I.u2UcM.yGVY8THeEnImwh1q/QqLCXLeBPIQX.m","Yavuz Gedik","yavuz@gmail.com","Bahçelievler","CE","Student");
 insert into users (id,user_name,password,full_name,email,locality,department,role)
-values("20087CE","ErgülOExam-S","$2y$10$2HCebGGsTPL1NKUsjuCCLeoNhLMUWmXuxGY7hb2CZ9PjDLHcpekce","Ergül Boz","ergül@gmail.com","Bakırköy","CE","Student");
+values("20087CE","ErgülOExam-S","$2y$10$2HCebGGsTPL1NKUsjuCCLeoNhLMUWmXuxGY7hb2CZ9PjDLHcpekce","Ergül Boz","ergul@gmail.com","Bakırköy","CE","Student");
 insert into users (id,user_name,password,full_name,email,locality,department,role)
 values("20088CE","AtillaOExam-S","$2y$10$iiYM2P8OmPb5notwEHI78OxMf3EWGdgYBRpE4gAmtYIMeUv5ZiRZ2","Atilla Şekerci","atilla@gmail.com","Başakşehir","CE","Student");
 insert into users (id,user_name,password,full_name,email,locality,department,role)
@@ -183,7 +183,7 @@ values("20091CE","AyşeOExam-S","$2y$10$pxcdbkS4UXtzNNSgtHTHCeo165.xqOmY/Da7WzD4
 insert into users (id,user_name,password,full_name,email,locality,department,role)
 values("20092HS","AliOExam-S","$2y$10$vA6yq1y5uWO9ds.RASn62eEtUQwPtMt9VQWhOp4IRTJ48dHSosBnC","Ali Alhaz","ali@gmail.com","Beşiktaş","HS","Student");
 insert into users (id,user_name,password,full_name,email,locality,department,role)
-values("20093HS","BirgülOExam-S","$2y$10$OjgSPk27kQ4YostxiQ5oZ.FHcikblM/wwS5bNIMOMG01MZorXGlBq","Birgül Mirza","birgül@gmail.com","Beylikdüzü","HS","Student");
+values("20093HS","BirgülOExam-S","$2y$10$OjgSPk27kQ4YostxiQ5oZ.FHcikblM/wwS5bNIMOMG01MZorXGlBq","Birgül Mirza","birgul@gmail.com","Beylikdüzü","HS","Student");
 insert into users (id,user_name,password,full_name,email,locality,department,role)
 values("20094HS","ZeynepOExam-S","$2y$10$Nuv3Y3XMv.8lNrdIxCwhUuwPBbEMS7TSFsPGi/HbALWxYkEPWCHeK","Zeynep Dadalı","zeynep@gmail.com","Çatalca","HS","Student");
 insert into users (id,user_name,password,full_name,email,locality,department,role)
