@@ -1,4 +1,14 @@
 insert into users (id,user_name,password,full_name,email,locality,department,role)
+values("20001","YasinOExam-S","$2y$10$oDvp6w1dEr65U9JyRPotX.reL2QS9ubeflS3cEG8bvEQzu4h/rdoq","Yasin Demir","mertyasin6@gmail.com","Ümraniye","CS","Student");
+insert into users (id,user_name,password,full_name,email,locality,department,role)
+values("20002","EminOExam-S","$2y$10$Wn8NbS4A3JMW1ZVO8ZUpauVnafJFIF0e8ypzM1C4.x0XJ1v5qkLmS","Emin Özer","eminoz@gmail.com","Şile","CS","Student");
+insert into users (id,user_name,password,full_name,email,locality,department,role)
+values("20003","MertcanOExam-S","$2y$10$IjMx4G3KuLZv6ktXeiwIHOM1rzyGi/GJIr488t6/BWanLGbyRfTEG","Mertcan Özarslan","mozarslan1434@gmail.com","Çekmeköy","CS","Student");
+insert into users (id,user_name,password,full_name,email,locality,department,role)
+values("20004","TümerOExam-S","$2y$10$s.vnKOLIWeQJLNjmtrL5l.bh6kXIeXrgimV6qbytsX65gOzAYLQwK","Tümer Karakuş","tumerkarakus@gmail.com","Şile","CS","Student");
+insert into users (id,user_name,password,full_name,email,locality,department,role)
+values("20006","YaşarOExam-S","$2y$10$rLfUrqRekLqUC5XcwYqYPOVvMEAugAkDkl/hqgt05ij4l5jNNbBz6","Yaşar Çalışkan","yasarc97@gmail.com","Başakşehir","CS","Student");
+insert into users (id,user_name,password,full_name,email,locality,department,role)
 values("20005","BaranOExam-S","$2y$10$FiIzmvOTivU4xyD66gBWhuGw.ztVt0jtLc.qhvHR2r6yZZAGFZ772","Baran Hocaoğlu","baran@gmail.com","Avcılar","CS","Student");
 insert into users (id,user_name,password,full_name,email,locality,department,role)
 values("20007","KemalOExam-S","$2y$10$bjReTq0nVDRaa6R303t8xen1rtD8aKMI9kw4xPnXIqxKqnIn.id8K","Kemal Sözer","kemal@gmail.com","Bağcılar","CS","Student");
@@ -232,3 +242,9 @@ insert into users (id,user_name,password,full_name,email,locality,department,rol
 values("80009","GülayOExam-A","$2y$10$nXiiZVbBEhhRrDlODRcTmO0m3JCODpMg.DbMfu5w4BK.3iUsIG8We","Gülay Görgülü","gulay32@gmail.com","Ümraniye","CS","Assistant");
 insert into users (id,user_name,password,full_name,email,locality,department,role)
 values("80010","CemreOExam-A","$2y$10$g3v0WUXT13jLB8TULAepr.bmYl.L/Dsbd8NZ22FbWwzjdgA3.EHVO","Cemre Bayraktar","cemre46@gmail.com","Beyoğlu","SE","Assistant");
+
+
+
+
+insert into users (id,user_name,password,full_name,email,locality,department,role)
+values("1","AdminOExam","$2y$10$SFTXU8Eo4oTfEdn89t8zqe85xo0f8gPfuSw9RgC0HBzTLHdNoBDx2", "Alparslan Günay","alparslangunay@gmail.com","Ataşehir","-","Admin");
