@@ -2,11 +2,9 @@
 
 namespace App\Models;
 
-use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
-use function Symfony\Component\Translation\t;
 
 class User extends Authenticatable
 {
@@ -52,5 +50,15 @@ class User extends Authenticatable
     public function multipleShoiceSubmission()
     {
         return $this->hasMany(MultipleChoiceSubmission::class);
+    }
+
+    public function attempts()
+    {
+        return $this->hasMany(Attempt::class);
+    }
+
+    public function submissions()
+    {
+        return collect($this->textSubmission())->merge($this->multipleShoiceSubmission());
     }
 }
