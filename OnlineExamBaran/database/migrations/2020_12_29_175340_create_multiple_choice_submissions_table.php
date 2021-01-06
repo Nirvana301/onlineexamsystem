@@ -20,7 +20,6 @@ class CreateMultipleChoiceSubmissionsTable extends Migration
             $table->foreignId('question_id')->constrained();
             $table->boolean('is_graded')->nullable(false)->default(false);
             $table->float('grade')->nullable();
-            $table->foreignId('answer_id')->constrained('multiple_choice_answers');
             $table->timestamps();
         });
     }

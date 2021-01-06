@@ -30,5 +30,5 @@ Route::name('auth')->group(function () {
     Route::post('/logout', [App\Http\Controllers\UserController::class, 'logout'])->middleware('auth')->name('.logout');
 });
 
-Route::get('/{course}/exam/{exam}/q/{question}', [App\Http\Controllers\ExamController::class, 'takeExam'])->middleware('auth')->name('take_exam');
-Route::post('/{course}/exam/{exam}/q/{question}', [App\Http\Controllers\ExamController::class, 'saveSubmission'])->middleware('auth')->name('save_submission');
+Route::get('/{course}/exam/{exam}', [App\Http\Controllers\ExamController::class, 'takeExam'])->middleware('auth')->name('take_exam');
+Route::post('/{course}/exam/{exam}', [App\Http\Controllers\ExamController::class, 'saveSubmission'])->middleware('auth')->name('save_submission');

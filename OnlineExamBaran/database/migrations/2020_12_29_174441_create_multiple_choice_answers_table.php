@@ -20,6 +20,7 @@ class CreateMultipleChoiceAnswersTable extends Migration
             $table->char('value');
             $table->foreignId('question_id')->constrained()->onDelete('cascade');
             $table->foreignId('created_by')->constrained('users');
+            $table->unique(['question_id', 'value']);
             $table->timestamps();
         });
     }

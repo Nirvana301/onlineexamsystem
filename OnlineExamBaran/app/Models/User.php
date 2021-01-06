@@ -44,12 +44,12 @@ class User extends Authenticatable
 
     public function textSubmission()
     {
-        return $this->hasMany(TextSubmission::class);
+        return $this->hasMany(TextSubmission::class, 'given_by');
     }
 
     public function multipleShoiceSubmission()
     {
-        return $this->hasMany(MultipleChoiceSubmission::class);
+        return $this->hasMany(MultipleChoiceSubmission::class, 'given_by');
     }
 
     public function attempts()

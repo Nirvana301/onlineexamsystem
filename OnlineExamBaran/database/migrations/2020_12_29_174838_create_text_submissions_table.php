@@ -20,7 +20,7 @@ class CreateTextSubmissionsTable extends Migration
             $table->boolean('is_graded')->nullable(false)->default(false);
             $table->float('grade')->nullable();
             $table->foreignId('question_id')->constrained()->onDelete('cascade');
-            $table->integer('evaluated_by');
+            $table->integer('evaluated_by')->nullable();
             $table->timestamps();
         });
     }
