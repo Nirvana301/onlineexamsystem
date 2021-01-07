@@ -11,7 +11,10 @@ class ExamController extends Controller
 {
     public function takeExam(Course $course, Exam $exam)
     {
-        $this->checkDate($exam);
+        $warning = $this->checkDate($exam);
+        if (isset($warning['warning'])) {
+            return redirect()->back()->with($warning);
+        }
 
         $questions = $exam->questions()->with('answers')->get();
 
@@ -32,11 +35,11 @@ class ExamController extends Controller
         $date = Carbon::parse($exam->date)->addHours($exam->duration / 60)->addMinutes($exam->duration % 60);
 
         if ($date->isPast()) {
-            return redirect()->back()->with('warning', 'Due Date Passed');
+            return ['warning' => 'Due Date Past'];
         }
 
         if (!Carbon::parse($exam->date)->isPast()) {
-            return redirect()->back()->with('waring', 'Exam Not Started');
+            return ['warning' => 'Exam Not Started'];
         }
     }
 }
