@@ -14,7 +14,6 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/spatie/laravel-menu" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/spatie/menu" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/spatie/macroable" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/monolog/monolog" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/phpspec/prophecy" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/laravel/sail" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/laravel/tinker" />
@@ -120,6 +119,7 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/string" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/process" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/laravel/ui" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/monolog/monolog" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
