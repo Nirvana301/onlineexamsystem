@@ -1,0 +1,178 @@
+form {
+    border: 0px solid #f1f1f1;
+
+}
+
+.form-content
+{
+    padding: 2%;
+    border: 1px solid #ced4da;
+    width: 1000px;
+    margin:0 auto;
+}
+
+/* for register form*/
+.form-control{
+    padding: 12px 20px;
+    margin: 8px 0px;
+}
+
+
+#genel {
+    width: 98.3%;
+    height: 90%;
+    position: absolute;
+    background-image: url("/img/logoBackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#dersbutonu {
+    width: 80px;
+    height: 80px;
+    opacity: 0.0;
+    filter: alpha(opacity=40);
+
+
+}
+
+#feedbacktext {
+
+    margin-left: 20px;
+    width: 250px;
+    height: 25px;
+    float: left;
+    overflow: hidden;
+}
+
+#annaouncementtext {
+    margin-top: 5px;
+    margin-left: 20px;
+    width: 250px;
+    height: 25px;
+    float: left;
+    overflow: hidden;
+}
+
+#feedbackphoto {
+    width: 60px;
+    height: 60px;
+    background-image: url("/feedback.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: left;
+    padding-right: 15px;
+}
+
+#annaouncementphoto {
+    width: 60px;
+    height: 60px;
+    background-image: url("/announcement.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: left;
+    padding-right: 15px;
+}
+
+#dersadı {
+    width: 80px;
+    height: 30px;
+    font-size: 10px;
+    text-align: center;
+    overflow: hidden;
+
+
+}
+
+#course {
+    width: 140px;
+    height: 100px;
+    float: left;
+    margin-top: 1.5%;
+    margin-bottom: 12%;
+    margin-left: 3%;
+    margin-right: 5%;
+    background-image: url("dersresmi.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: contain;
+    font-size: 20px;
+    text-align:center;
+    
+}
+
+
+
+#courses {
+    height: auto;
+    width: 80%;
+    float: left;
+    height: 300px;
+    
+}
+
+#others {
+    height: auto;
+    width: 40%;
+    float: left;
+}
+
+#feedbacks {
+    height: auto;
+    width: 100%;
+    padding: 5%;
+
+}
+
+#feedback {
+    height: 70px;
+    width: 100%;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-left: 15px;
+
+}
+
+#announcements {
+    height: auto;
+    width: 100%;
+    padding: 5%;
+}
+
+#announcement {
+    height: 70px;
+    width: 100%;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-left: 15px;
+
+}
+
+#panel {
+    margin-top: 1%;
+}
+
+#navbar {
+    margin-top: 1%;
+    
+}
+
+#text {
+    position: relative;
+
+    float: right;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+
+@media (max-height: 600px) {
+    #text {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 200px) {
+
+}
